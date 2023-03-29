@@ -1,8 +1,9 @@
 import React from 'react'
+import Banner from '../components/Banner'
 
 const Home = () => {
   return (
-    <h1 className='text-red-600 text-xl'>Large Bazar</h1>
+   <Banner></Banner>
   )
 }
 
