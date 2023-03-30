@@ -1,4 +1,5 @@
 import React from 'react';
+import ProductsCard from './ProductsCard';
 
 const Products = () => {
     return (
@@ -7,11 +8,14 @@ const Products = () => {
                 <h1 className='text-2xl bg-black text-white py-2 w-80 text-center'>Shopping Everyday</h1>
                 <span className='w-20 h-[3px] bg-black'></span>
                 <p className="max-w-[700px] text-gray-600 text-center">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo,
-          quos fugit inventore, cumque quae corporis ratione tenetur eos
-          voluptates neque magnam soluta aperiam omnis perspiciatis reiciendis
-          asperiores repudiandae assumenda quidem.
-        </p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo,
+                    quos fugit inventore, cumque quae corporis ratione tenetur eos
+                    voluptates neque magnam soluta aperiam omnis perspiciatis reiciendis
+                    asperiores repudiandae assumenda quidem.
+                </p>
+            </div>
+            <div className='max-w-screen-xl mx-auto'>
+                <ProductsCard></ProductsCard>
             </div>
         </div>
     );
