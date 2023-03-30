@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ProductsCard = () => {
+const ProductsCard = ({product}) => {
   return (
     <div>ProductsCard</div>
   )
